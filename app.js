@@ -27,4 +27,10 @@ const card = React.createElement("div", { className: "card" }, [
   React.createElement("button", { onClick: () => alert("Hello!") }, "Click Me"),
 ]);
 
-root.render(parent);
+const app = React.createElement("div", { className: "app" }, [
+  heading,
+  card,
+  parent,
+]);
+
+root.render(app);
