@@ -1,0 +1,14 @@
+{
+  "name": "app1",
+  "version": "1.0.0",
+  "description": "its a basic app",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "soubhik",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  }
+}
